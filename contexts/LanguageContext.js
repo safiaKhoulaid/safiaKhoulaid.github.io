@@ -4,17 +4,28 @@ const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
   const [locale, setLocale] = useState('fr');
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
     // Récupérer la langue sauvegardée
-    const savedLocale = localStorage.getItem('locale') || 'fr';
-    setLocale(savedLocale);
+    if (typeof window !== 'undefined') {
+      const savedLocale = localStorage.getItem('locale') || 'fr';
+      setLocale(savedLocale);
+    }
   }, []);
 
   const changeLocale = (newLocale) => {
     setLocale(newLocale);
-    localStorage.setItem('locale', newLocale);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('locale', newLocale);
+    }
   };
+
+  // Éviter les problèmes d'hydratation en attendant le montage
+  if (!mounted) {
+    return <>{children}</>;
+  }
 
   return (
     <LanguageContext.Provider value={{ locale, changeLocale }}>
