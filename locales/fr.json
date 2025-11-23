@@ -47,5 +47,65 @@
   "footer": {
     "rights": "Tous droits réservés.",
     "madeWith": "Fait avec ❤️ par"
+  },
+  "expertiseData": {
+    "0": {
+      "title": "Java Enterprise & Microservices",
+      "desc": "Mon expertise principale réside dans la construction de systèmes backend robustes et évolutifs utilisant Java et l'écosystème Spring. Je me spécialise dans la conception d'APIs RESTful et d'architectures Microservices, garantissant haute performance et sécurité pour des applications de niveau entreprise."
+    },
+    "1": {
+      "title": "DevOps & Cloud Native",
+      "desc": "Je n'écris pas seulement du code ; je le déploie. J'ai une expérience pratique des pratiques DevOps incluant la conteneurisation Docker, l'orchestration Kubernetes et les pipelines CI/CD. Je me concentre sur l'automatisation des workflows pour assurer des déploiements fiables et rapides."
+    },
+    "2": {
+      "title": "Full Stack JavaScript (MERN)",
+      "desc": "La polyvalence est ma force. Au-delà de Java, je maîtrise l'écosystème JavaScript. Je construis des interfaces utilisateur dynamiques avec React.js et développe des backends légers et non-bloquants utilisant Node.js et Express. Cela me permet de m'adapter à n'importe quelle stack technique requise."
+    },
+    "3": {
+      "title": "Intégration IA (Spring AI)",
+      "desc": "Je suis passionnée par l'avenir de la technologie. J'intègre l'Intelligence Artificielle dans les solutions web en utilisant Spring AI, faisant le pont entre le développement logiciel traditionnel et les LLMs pour créer des applications intelligentes et axées sur les données."
+    },
+    "4": {
+      "title": "Agile & Collaboration",
+      "desc": "Formée en pédagogie active, je m'épanouis dans les environnements Agile/Scrum. Je maîtrise l'utilisation de Jira pour la gestion de projet, participe aux sprints et collabore efficacement via Git/GitHub. Je valorise le code propre et l'apprentissage continu."
+    }
+  },
+  "backgroundData": {
+    "education": {
+      "0": {
+        "title": "YouCode (UM6P)",
+        "degree": "Développement Web / Full Stack",
+        "detail": "Formation intensive basée sur la pédagogie active (Simplon). Maîtrise des technologies modernes (Spring Boot / Angular), méthodologie Agile/Scrum et réalisation de projets concrets.",
+        "year": "2024 - Présent"
+      },
+      "1": {
+        "title": "Faculté des Sciences Semlalia",
+        "degree": "Études Universitaires (Niveau DEUG)",
+        "detail": "Acquisition des fondamentaux en informatique, mathématiques et logique algorithmique. Validation de deux années d'études supérieures.",
+        "year": "2018 - 2021"
+      },
+      "2": {
+        "title": "Lycée Akensous",
+        "degree": "Baccalauréat Scientifique",
+        "detail": "Option Sciences Mathématiques A. Acquisition d'un fort esprit d'analyse et de logique.",
+        "year": "2018"
+      }
+    },
+    "experience": {
+      "0": {
+        "title": "YouCode (Projets Académiques)",
+        "role": "Développeuse Full Stack (Formation)",
+        "desc": "Développement d'applications web complexes. Travail en équipe, gestion de versions (Git/GitHub) et respect des délais (Deadlines).",
+        "year": "2024 - Présent",
+        "location": "Safi, Maroc"
+      },
+      "1": {
+        "title": "Freelance & Auto-formation",
+        "role": "Développeuse Web Junior",
+        "desc": "Période dédiée à l'auto-formation (Self-learning). Exploration des bases du développement Web, réalisation de challenges techniques et renforcement de la logique de programmation.",
+        "year": "2022 - 2024",
+        "location": "Remote"
+      }
+    }
   }
 }

@@ -10,10 +10,10 @@ import ParagraphSkeleton from "../components/Common/ParagraphSkeleton";
 import { useTranslation } from "../hooks/useTranslation";
 
 function Background() {
-  const { t } = useTranslation();
-  const { isLoading, error, data } = useQuery("background", () =>
+  const { t, locale } = useTranslation();
+  const { isLoading, error, data } = useQuery(["background", locale], () =>
     axios
-      .get("api/background")
+      .get(`api/background?locale=${locale}`)
       .then(({ data }) => data)
       .catch((error) => console.error("Error fetching testimonials:", error))
   );

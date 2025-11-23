@@ -5,10 +5,10 @@ import ParagraphSkeleton from "../../Common/ParagraphSkeleton";
 import { useTranslation } from "../../../hooks/useTranslation";
 
 const MyExpertise = () => {
-  const { t } = useTranslation();
-  const { isLoading, error, data } = useQuery("expertise", () =>
+  const { t, locale } = useTranslation();
+  const { isLoading, error, data } = useQuery(["expertise", locale], () =>
     axios
-      .get("api/expertise")
+      .get(`api/expertise?locale=${locale}`)
       .then(({ data }) => data)
       .catch((error) => console.error("Error fetching testimonials:", error))
   );

@@ -47,5 +47,65 @@
   "footer": {
     "rights": "All Rights Reserved.",
     "madeWith": "Made with ❤️ by"
+  },
+  "expertiseData": {
+    "0": {
+      "title": "Java Enterprise & Microservices",
+      "desc": "My core expertise lies in building robust, scalable backend systems using Java and the Spring Ecosystem. I specialize in designing RESTful APIs and Microservices architectures, ensuring high performance and security for enterprise-grade applications."
+    },
+    "1": {
+      "title": "DevOps & Cloud Native",
+      "desc": "I don't just write code; I ship it. I have hands-on experience with DevOps practices including Docker containerization, Kubernetes orchestration, and CI/CD pipelines. I focus on automating workflows to ensure reliable and fast deployments."
+    },
+    "2": {
+      "title": "Full Stack JavaScript (MERN)",
+      "desc": "Versatility is my strength. Beyond Java, I master the JavaScript ecosystem. I build dynamic user interfaces with React.js and develop lightweight, non-blocking backends using Node.js and Express. This allows me to adapt to any technical stack required."
+    },
+    "3": {
+      "title": "AI Integration (Spring AI)",
+      "desc": "I am passionate about the future of tech. I integrate Artificial Intelligence into web solutions using Spring AI, bridging the gap between traditional software development and LLMs to create smart, data-driven applications."
+    },
+    "4": {
+      "title": "Agile & Collaborative Workflow",
+      "desc": "Trained in active pedagogy, I thrive in Agile/Scrum environments. I am proficient in using Jira for project management, participating in sprints, and collaborating effectively via Git/GitHub. I value clean code and continuous learning."
+    }
+  },
+  "backgroundData": {
+    "education": {
+      "0": {
+        "title": "YouCode (UM6P)",
+        "degree": "Web Development / Full Stack",
+        "detail": "Intensive training based on active pedagogy (Simplon). Mastery of modern technologies (Spring Boot / Angular), Agile/Scrum methodology and completion of concrete projects.",
+        "year": "2024 - Present"
+      },
+      "1": {
+        "title": "Faculté des Sciences Semlalia",
+        "degree": "University Studies (DEUG Level)",
+        "detail": "Acquisition of fundamentals in computer science, mathematics and algorithmic logic. Validation of two years of higher education.",
+        "year": "2018 - 2021"
+      },
+      "2": {
+        "title": "Lycée Akensous",
+        "degree": "Scientific Baccalaureate",
+        "detail": "Mathematical Sciences option A. Acquisition of strong analytical and logical thinking.",
+        "year": "2018"
+      }
+    },
+    "experience": {
+      "0": {
+        "title": "YouCode (Academic Projects)",
+        "role": "Full Stack Developer (Training)",
+        "desc": "Development of complex web applications. Team work, version management (Git/GitHub) and respect of deadlines.",
+        "year": "2024 - Present",
+        "location": "Safi, Morocco"
+      },
+      "1": {
+        "title": "Freelance & Self-learning",
+        "role": "Junior Web Developer",
+        "desc": "Period dedicated to self-learning. Exploration of Web development basics, completion of technical challenges and strengthening of programming logic.",
+        "year": "2022 - 2024",
+        "location": "Remote"
+      }
+    }
   }
 }
