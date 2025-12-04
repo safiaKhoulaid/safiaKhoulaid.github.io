@@ -224,7 +224,7 @@
       "id": 1,
       "projectName": "SmartLogi",
       "url": "https://github.com/safiaKhoulaid/smartlogi",
-      "image": "projects/opencode.png",
+      "image": "projects/smartlogi.jpg",
       "projectDetail": "Optimize your supply chain with SmartLogi. A powerful and scalable backend API capable of handling complex data flows. Robust architecture based on Spring Boot and Java 17, with sharp SQL performance optimization.",
       "technologiesUsed": [
         {

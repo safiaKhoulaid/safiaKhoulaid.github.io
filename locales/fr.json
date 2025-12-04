@@ -224,7 +224,7 @@
       "id": 1,
       "projectName": "SmartLogi",
       "url": "https://github.com/safiaKhoulaid/smartlogi",
-      "image": "projects/opencode.png",
+      "image": "projects/smartlogi.jpg",
       "projectDetail": "Optimisez votre chaîne logistique avec SmartLogi. Une API backend puissante et scalable, capable de gérer des flux de données complexes (commandes, tournées). Architecture robuste basée sur Spring Boot et Java 17, avec une optimisation pointue des performances SQL.",
       "technologiesUsed": [
         {
