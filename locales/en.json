@@ -205,7 +205,7 @@
     {
       "id": 0,
       "projectName": "OpenCode",
-      "url": "https://opencode.dev",
+      "url": "https://github.com/safiaKhoulaid/Open-Code-Plateforme-E-learning.git",
       "image": "projects/opencode.png",
       "projectDetail": "Revolutionize your coding journey with OpenCode. An immersive e-learning platform offering ultra-smooth navigation (SPA) and an intuitive dashboard to track your progress. Built with React.js and Laravel for optimal performance.",
       "technologiesUsed": [
@@ -223,7 +223,7 @@
     {
       "id": 1,
       "projectName": "SmartLogi",
-      "url": "https://github.com/safiaKhoulaid/smartlogi",
+      "url": "https://github.com/safiaKhoulaid/SmartLogi_Delivery_Management_System-V-0.1.0.git",
       "image": "projects/Gemini_Generated_Image_vs7jufvs7jufvs7j.png",
       "projectDetail": "Optimize your supply chain with SmartLogi. A powerful and scalable backend API capable of handling complex data flows. Robust architecture based on Spring Boot and Java 17, with sharp SQL performance optimization.",
       "technologiesUsed": [
