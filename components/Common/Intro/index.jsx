@@ -9,8 +9,10 @@ import Skills from './Skills';
 import Image from 'next/image';
 import { NAME, DESIGNATION, SOCIAL_LINKS } from '../../../constants/constants';
 import Safia from '../../../public/images/safia.jpg';
+import { useTranslation } from '../../../hooks/useTranslation';
 
 const Intro = () => {
+  const { t } = useTranslation();
   return (
     <>
       {/* fixed at top */}
@@ -18,7 +20,7 @@ const Intro = () => {
         <Image className='w-20 h-20 rounded-full' src={Safia} alt='profile picture' />
         <div className='flex flex-col items-center justify-center'>
           <span className='text-gray-300 text-base font-bold break-normal'>{NAME}</span>
-          <span className='text-sm text-LightGray text-center mt-2'>{DESIGNATION}</span>
+          <span className='text-sm text-LightGray text-center mt-2'>{t('intro.designation')}</span>
         </div>
       </div>
 

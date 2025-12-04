@@ -1,6 +1,10 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 
-const LanguageContext = createContext();
+const LanguageContext = createContext({
+  locale: 'fr',
+  changeLocale: () => {},
+  mounted: false
+});
 
 export function LanguageProvider({ children }) {
   const [locale, setLocale] = useState('fr');
@@ -8,7 +12,7 @@ export function LanguageProvider({ children }) {
 
   useEffect(() => {
     setMounted(true);
-    // Récupérer la langue sauvegardée
+    // Récupérer la langue sauvegardée uniquement côté client
     if (typeof window !== 'undefined') {
       const savedLocale = localStorage.getItem('locale') || 'fr';
       setLocale(savedLocale);
@@ -22,13 +26,8 @@ export function LanguageProvider({ children }) {
     }
   };
 
-  // Éviter les problèmes d'hydratation en attendant le montage
-  if (!mounted) {
-    return <>{children}</>;
-  }
-
   return (
-    <LanguageContext.Provider value={{ locale, changeLocale }}>
+    <LanguageContext.Provider value={{ locale, changeLocale, mounted }}>
       {children}
     </LanguageContext.Provider>
   );
@@ -36,8 +35,5 @@ export function LanguageProvider({ children }) {
 
 export function useLanguage() {
   const context = useContext(LanguageContext);
-  if (!context) {
-    throw new Error('useLanguage must be used within a LanguageProvider');
-  }
   return context;
 }

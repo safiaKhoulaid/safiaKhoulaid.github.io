@@ -107,5 +107,98 @@
         "location": "Remote"
       }
     }
-  }
+  },
+  "recommendationsData": [
+    {
+      "id": 0,
+      "name": "Shahmir Minhas",
+      "image": "images/shahmir.jfif",
+      "designation": "React JS | NEXT JS | Node | GraphQL",
+      "view": "Salut tout le monde ! Je voulais prendre un moment pour recommander Safia pour toute opportunité React.js. J'ai eu le plaisir de travailler avec elle sur plusieurs projets où elle a démontré une forte compréhension des concepts React.js et Next.js et a fourni un code de haute qualité. Elle a constamment fait preuve d'une volonté d'apprendre et de grandir, et son enthousiasme pour relever de nouveaux défis était contagieux. Safia est un membre d'équipe fiable et dévoué qui serait un atout majeur pour toute équipe React.js. Hautement recommandé ! 👍! 🌟",
+      "linkednURL": "https://www.linkedin.com/in/shahmir-minhas/"
+    },
+    {
+      "id": 1,
+      "name": "Sikandar Hayat",
+      "image": "images/sikandar.jpeg",
+      "designation": "Data Scientist | Machine Learning Engineer | Python Developer",
+      "view": "J'ai eu le privilège de travailler aux côtés de Safia sur plusieurs projets universitaires, et je dois dire que son talent et son éthique de travail se sont vraiment démarqués. Récemment, nous faisions tous deux partie de l'équipe dynamique chez JMM Technologies, où le professionnalisme et l'attention aux détails de Safia ont brillé. Je soutiens sans réserve Safia pour toute opportunité nécessitant une personne hautement qualifiée et dévouée.",
+      "linkednURL": "https://www.linkedin.com/in/sikandar-hayat-381407179/"
+    },
+    {
+      "id": 2,
+      "name": "Nasir Khan",
+      "image": "images/nasir.jpg",
+      "designation": "MERN | JavaScript | Tailwind | Sass | Bootstrap",
+      "view": "Je recommande vivement Safia en tant que développeuse frontend React talentueuse avec un flair incroyable pour le design UI/UX. Sa maîtrise de Node.js renforce encore ses capacités, lui permettant de construire des applications robustes et évolutives. L'attention aux détails de Safia, ses compétences en résolution de problèmes et son dévouement à fournir des résultats exceptionnels font d'elle un ajout précieux à toute équipe de développement.",
+      "linkednURL": "https://www.linkedin.com/in/nasirkhan22/"
+    },
+    {
+      "id": 3,
+      "name": "Muhammad Ullah",
+      "image": "images/muhammad.jpeg",
+      "designation": "MERN Stack Developer at Productbox",
+      "view": "Je recommande vivement Safia pour des postes de développement web frontend. Son expertise en ReactJS et Next.js, combinée à son professionnalisme et son dévouement, en font un atout inestimable pour toute équipe.",
+      "linkednURL": "https://www.linkedin.com/in/muhammadullahafridi/"
+    }
+  ],
+  "reviewsData": [
+    {
+      "id": 0,
+      "clientName": "Mustafash",
+      "clientLocation": "Egypt",
+      "clientSource": "Fiverr",
+      "clientReview": "C'est toujours agréable de travailler avec elle. Le travail est terminé rapidement et elle fait plus que ce qu'on lui demande. Il est également clair qu'elle a une grande connaissance du travail qu'elle fait. J'attends avec impatience notre prochaine collaboration."
+    },
+    {
+      "id": 2,
+      "clientName": "Melissabrown255",
+      "clientLocation": "United States",
+      "clientSource": "Fiverr",
+      "clientReview": "Elle est très douée pour la communication et est une développeuse de sites web expérimentée, une excellente expérience de travail avec elle."
+    },
+    {
+      "id": 3,
+      "clientName": "Jake Corry",
+      "clientLocation": "Germany",
+      "clientSource": "Fiverr",
+      "clientReview": "Safia est extrêmement compétente et serviable. Elle connaît le développement d'applications web sur le bout des doigts. Sa compréhension des différentes technologies et frameworks dans ce domaine est également très impressionnante. J'espère avoir la chance de travailler à nouveau avec elle."
+    },
+    {
+      "id": 4,
+      "clientName": "Blaise Labriola",
+      "clientLocation": "France",
+      "clientSource": "Fiverr",
+      "clientReview": "J'ai travaillé avec Safia et elle est très professionnelle et une excellente développeuse de logiciels. J'admire sa rapidité de développement et la qualité de son travail lorsqu'on lui confie une mission."
+    }
+  ],
+  "intro": {
+    "languages": "Langues",
+    "french": "Français",
+    "english": "Anglais",
+    "skills": "Expertise & Compétences",
+    "tools": "Outils",
+    "download": "Télécharger CV",
+    "designation": "Full Stack Java/Angular | Architecte Microservices | Développeuse Cloud Native",
+    "residence": "Résidence",
+    "age": "Âge"
+  },
+  "skillsData": [
+    {
+      "title": "Microservices & Systèmes Distribués",
+      "level": "85%"
+    },
+    {
+      "title": "Écosystème Java & Spring AI",
+      "level": "90%"
+    },
+    {
+      "title": "DevOps & Conteneurisation (K8s/Docker)",
+      "level": "75%"
+    },
+    {
+      "title": "Frontend Moderne (Angular & React)",
+      "level": "80%"
+    }
+  ]
 }

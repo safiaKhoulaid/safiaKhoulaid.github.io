@@ -107,5 +107,98 @@
         "location": "Remote"
       }
     }
-  }
+  },
+  "recommendationsData": [
+    {
+      "id": 0,
+      "name": "Shahmir Minhas",
+      "image": "images/shahmir.jfif",
+      "designation": "React JS | NEXT JS | Node | GraphQL",
+      "view": "Hey everyone! I wanted to take a moment to recommend Osama Javaid for any React.js opportunities. I had the pleasure of working with him on multiple projects where he showcased a strong understanding of React.js and Next.js concepts and delivered high-quality code. He consistently demonstrated a willingness to learn and grow, and his enthusiasm for tackling new challenges was contagious. Osama is a reliable and dedicated team member who would be a great asset to any React.js team. Highly recommended! 👍! 🌟",
+      "linkednURL": "https://www.linkedin.com/in/shahmir-minhas/"
+    },
+    {
+      "id": 1,
+      "name": "Sikandar Hayat",
+      "image": "images/sikandar.jpeg",
+      "designation": "Data Scientist | Machine Learning Engineer | Python Developer",
+      "view": "I had the privilege of working alongside Osama on multiple university projects, and I must say, his talent and work ethic truly stood out. Recently, we were both part of the dynamic team at JMM Technologies, where Osama's professionalism and attention to detail shone brightly. I wholeheartedly endorse Osama for any opportunity that calls for a highly skilled and dedicated individual.",
+      "linkednURL": "https://www.linkedin.com/in/sikandar-hayat-381407179/"
+    },
+    {
+      "id": 2,
+      "name": "Nasir Khan",
+      "image": "images/nasir.jpg",
+      "designation": "MERN | JavaScript | Tailwind | Sass | Bootstrap",
+      "view": "I wholeheartedly recommend Osama as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Osama's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
+      "linkednURL": "https://www.linkedin.com/in/nasirkhan22/"
+    },
+    {
+      "id": 3,
+      "name": "Muhammad Ullah",
+      "image": "images/muhammad.jpeg",
+      "designation": "MERN Stack Developer at Productbox",
+      "view": "I highly recommend Osama Javed for web frontend development positions. Their expertise in ReactJS and Next.js, combined with their professionalism and dedication, make them an invaluable asset to any team.",
+      "linkednURL": "https://www.linkedin.com/in/muhammadullahafridi/"
+    }
+  ],
+  "reviewsData": [
+    {
+      "id": 0,
+      "clientName": "Mustafash",
+      "clientLocation": "Egypt",
+      "clientSource": "Fiverr",
+      "clientReview": "It is always nice to work with him. The work is finished quickly and he does more than is asked of him. It is also clear that he has a lot of knowledge of the work he does. I look forward to our next collaboration."
+    },
+    {
+      "id": 2,
+      "clientName": "Melissabrown255",
+      "clientLocation": "United States",
+      "clientSource": "Fiverr",
+      "clientReview": "He is very good with communication and experienced website developer, great experience to work with him. "
+    },
+    {
+      "id": 3,
+      "clientName": "Jake Corry",
+      "clientLocation": "Germany",
+      "clientSource": "Fiverr",
+      "clientReview": "Osama is extremely knowledgeable and helpful. He knows in and out of web app development . His understanding of different technologies and frameworks in the space is also very impressive. I hope I get the chance to work with him again"
+    },
+    {
+      "id": 4,
+      "clientName": "Blaise Labriola",
+      "clientLocation": "France",
+      "clientSource": "Fiverr",
+      "clientReview": "I have worked with Osama and he is very professional and excellent software  developer. I admire his speed of development and quality of work when given an assignment."
+    }
+  ],
+  "intro": {
+    "languages": "Languages",
+    "french": "French",
+    "english": "English",
+    "skills": "Expertise & Competencies",
+    "tools": "Tools",
+    "download": "Download Resume",
+    "designation": "Full Stack Java/Angular | Microservices Architect | Cloud Native Developer",
+    "residence": "Residence",
+    "age": "Age"
+  },
+  "skillsData": [
+    {
+      "title": "Microservices & Distributed Systems",
+      "level": "85%"
+    },
+    {
+      "title": "Java Ecosystem & Spring AI",
+      "level": "90%"
+    },
+    {
+      "title": "DevOps & Containerization (K8s/Docker)",
+      "level": "75%"
+    },
+    {
+      "title": "Modern Frontend (Angular & React)",
+      "level": "80%"
+    }
+  ]
 }
