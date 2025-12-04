@@ -1,54 +1,53 @@
 import Badge from "../Common/Badge"
+import Image from 'next/image'
 
 const PortfolioCard = ({ data }) => {
     return (
-        <div className="card_stylings overflow-hidden h-full">
-            <img
-                src={data?.image}
-                alt="portfolio img"
-                className="w-full object-cover opacity-30 h-32 sm:h-48 md:h-64"
-            />
-            <div id="arrow" className="py-2 px-6 card_stylings hover:-translate-y-10 transition-all ease-in-out duration-500">
-                <div className="flex justify-between p-0 m-0 ">
-                    <h3 className="mr-2 underline italic font-semibold pt-2 text-2xl text-Snow leading-tight sm:leading-normal">
-                        <a
-                            href={data?.url}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
+        <div className="card_stylings overflow-hidden h-full relative group glass-card hover:border-Green/30 transition-all duration-500">
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+            <div className="relative w-full h-48 md:h-64 opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-in-out">
+                <Image
+                    src={`/${data?.image}`}
+                    alt={data?.projectName}
+                    fill
+                    className="object-cover"
+                />
+            </div>
+
+            <div className="absolute bottom-0 left-0 right-0 p-6 z-20 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                <div className="backdrop-blur-md bg-white/5 border border-white/10 p-4 rounded-xl shadow-lg">
+                    <div className="flex justify-between items-center mb-2">
+                        <h3 className="text-xl font-bold text-Snow">
                             {data?.projectName}
-                        </a>
-                    </h3>
-                    <div className="text-Snow transition duration-500 hover:text-yellow transform hover:-translate-y-1 hover:scale-110 pt-4 text-base">
+                        </h3>
                         <a
                             href={data?.url}
                             target="_blank"
                             rel="noreferrer"
+                            className="text-Green hover:text-white transition-colors duration-300"
                         >
                             <svg
-                                aria-hidden="true"
-                                focusable="false"
-                                data-prefix="fas"
-                                data-icon="globe"
-                                role="img"
                                 xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 496 512"
-                                className="svg-inline--fa fa-globe fa-w-16"
+                                className="h-6 w-6"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
                             >
-                                <path
-                                    fill="currentColor"
-                                    d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"
-                                    className=""
-                                ></path>
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 0 002 2h10a2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                             </svg>
                         </a>
                     </div>
-                </div>
-                <p className="text-xs text-LightGray font-normal">
-                    {data?.projectDetail}
-                </p>
-                <div className="text-sm flex flex-wrap gap-3 py-2">
-                    {data.technologiesUsed.map((index, key) => <Badge key={key} title={index.tech} />)}
+
+                    <p className="text-sm text-LightGray mb-4 line-clamp-3">
+                        {data?.projectDetail}
+                    </p>
+
+                    <div className="flex flex-wrap gap-2">
+                        {data.technologiesUsed.map((tech, key) => (
+                            <Badge key={key} title={tech.tech} />
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

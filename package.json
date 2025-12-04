@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "export": "next export",
-"deploy": "next build && gh-pages -d out --dotfiles"}
-,
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "next build && gh-pages -d out --dotfiles"
+  },
   "dependencies": {
     "@next/font": "13.1.1",
     "antd": "^5.6.1",

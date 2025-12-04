@@ -200,5 +200,49 @@
       "title": "Frontend Moderne (Angular & React)",
       "level": "80%"
     }
+  ],
+  "portfolioData": [
+    {
+      "id": 0,
+      "projectName": "OpenCode",
+      "url": "https://opencode.dev",
+      "image": "projects/opencode.png",
+      "projectDetail": "Révolutionnez votre apprentissage du code avec OpenCode. Une plateforme e-learning immersive offrant une navigation ultra-fluide (SPA) et un tableau de bord intuitif pour suivre votre progression. Conçue avec React.js et Laravel pour une performance optimale.",
+      "technologiesUsed": [
+        {
+          "tech": "React.js"
+        },
+        {
+          "tech": "Laravel"
+        },
+        {
+          "tech": "TailwindCSS"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "projectName": "SmartLogi",
+      "url": "https://github.com/safiaKhoulaid/smartlogi",
+      "image": "projects/opencode.png",
+      "projectDetail": "Optimisez votre chaîne logistique avec SmartLogi. Une API backend puissante et scalable, capable de gérer des flux de données complexes (commandes, tournées). Architecture robuste basée sur Spring Boot et Java 17, avec une optimisation pointue des performances SQL.",
+      "technologiesUsed": [
+        {
+          "tech": "Java 17"
+        },
+        {
+          "tech": "Spring Boot"
+        },
+        {
+          "tech": "Hibernate"
+        },
+        {
+          "tech": "PostgreSQL"
+        },
+        {
+          "tech": "Docker"
+        }
+      ]
+    }
   ]
 }

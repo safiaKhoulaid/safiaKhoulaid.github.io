@@ -14,7 +14,7 @@
     "completedProjects": "Completed Projects",
     "freelanceClients": "Freelance Clients",
     "honorsAwards": "Honors & Awards",
-    "opensourceProjects": "Opensource Projects"
+    "opensourceProjects": "Open Source Projects"
   },
   "expertise": {
     "title": "My Expertise"
@@ -23,7 +23,7 @@
     "title": "Recommendations"
   },
   "reviews": {
-    "title": "Clients Reviews"
+    "title": "Client Reviews"
   },
   "contact": {
     "title": "Contact Information",
@@ -37,7 +37,7 @@
     "message": "Message",
     "sendMessage": "SEND MESSAGE",
     "successTitle": "Message Sent!",
-    "successMessage": "Thank you for contacting me. I will get back to you soon.",
+    "successMessage": "Thanks for contacting me. I will get back to you soon.",
     "ok": "Okay"
   },
   "background": {
@@ -45,28 +45,28 @@
     "experience": "Experience"
   },
   "footer": {
-    "rights": "All Rights Reserved.",
+    "rights": "All rights reserved.",
     "madeWith": "Made with ❤️ by"
   },
   "expertiseData": {
     "0": {
       "title": "Java Enterprise & Microservices",
-      "desc": "My core expertise lies in building robust, scalable backend systems using Java and the Spring Ecosystem. I specialize in designing RESTful APIs and Microservices architectures, ensuring high performance and security for enterprise-grade applications."
+      "desc": "My core expertise lies in building robust and scalable backend systems using Java and the Spring ecosystem. I specialize in designing RESTful APIs and Microservices architectures, ensuring high performance and security for enterprise-level applications."
     },
     "1": {
       "title": "DevOps & Cloud Native",
-      "desc": "I don't just write code; I ship it. I have hands-on experience with DevOps practices including Docker containerization, Kubernetes orchestration, and CI/CD pipelines. I focus on automating workflows to ensure reliable and fast deployments."
+      "desc": "I don't just write code; I deploy it. I have hands-on experience with DevOps practices including Docker containerization, Kubernetes orchestration, and CI/CD pipelines. I focus on automating workflows to ensure reliable and fast deployments."
     },
     "2": {
       "title": "Full Stack JavaScript (MERN)",
-      "desc": "Versatility is my strength. Beyond Java, I master the JavaScript ecosystem. I build dynamic user interfaces with React.js and develop lightweight, non-blocking backends using Node.js and Express. This allows me to adapt to any technical stack required."
+      "desc": "Versatility is my strength. Beyond Java, I am proficient in the JavaScript ecosystem. I build dynamic user interfaces with React.js and develop lightweight, non-blocking backends using Node.js and Express. This allows me to adapt to any technical stack required."
     },
     "3": {
       "title": "AI Integration (Spring AI)",
-      "desc": "I am passionate about the future of tech. I integrate Artificial Intelligence into web solutions using Spring AI, bridging the gap between traditional software development and LLMs to create smart, data-driven applications."
+      "desc": "I am passionate about the future of technology. I integrate Artificial Intelligence into web solutions using Spring AI, bridging the gap between traditional software development and LLMs to create intelligent, data-driven applications."
     },
     "4": {
-      "title": "Agile & Collaborative Workflow",
+      "title": "Agile & Collaboration",
       "desc": "Trained in active pedagogy, I thrive in Agile/Scrum environments. I am proficient in using Jira for project management, participating in sprints, and collaborating effectively via Git/GitHub. I value clean code and continuous learning."
     }
   },
@@ -75,19 +75,19 @@
       "0": {
         "title": "YouCode (UM6P)",
         "degree": "Web Development / Full Stack",
-        "detail": "Intensive training based on active pedagogy (Simplon). Mastery of modern technologies (Spring Boot / Angular), Agile/Scrum methodology and completion of concrete projects.",
+        "detail": "Intensive training based on active pedagogy (Simplon). Mastery of modern technologies (Spring Boot / Angular), Agile/Scrum methodology, and realization of concrete projects.",
         "year": "2024 - Present"
       },
       "1": {
-        "title": "Faculté des Sciences Semlalia",
+        "title": "Faculty of Sciences Semlalia",
         "degree": "University Studies (DEUG Level)",
-        "detail": "Acquisition of fundamentals in computer science, mathematics and algorithmic logic. Validation of two years of higher education.",
+        "detail": "Acquisition of fundamentals in computer science, mathematics, and algorithmic logic. Validation of two years of higher education.",
         "year": "2018 - 2021"
       },
       "2": {
-        "title": "Lycée Akensous",
+        "title": "Akensous High School",
         "degree": "Scientific Baccalaureate",
-        "detail": "Mathematical Sciences option A. Acquisition of strong analytical and logical thinking.",
+        "detail": "Option Mathematical Sciences A. Acquisition of a strong analytical and logical mind.",
         "year": "2018"
       }
     },
@@ -95,14 +95,14 @@
       "0": {
         "title": "YouCode (Academic Projects)",
         "role": "Full Stack Developer (Training)",
-        "desc": "Development of complex web applications. Team work, version management (Git/GitHub) and respect of deadlines.",
+        "desc": "Development of complex web applications. Teamwork, version control (Git/GitHub), and adherence to deadlines.",
         "year": "2024 - Present",
         "location": "Safi, Morocco"
       },
       "1": {
         "title": "Freelance & Self-learning",
         "role": "Junior Web Developer",
-        "desc": "Period dedicated to self-learning. Exploration of Web development basics, completion of technical challenges and strengthening of programming logic.",
+        "desc": "Period dedicated to self-learning. Exploration of Web development basics, realization of technical challenges, and strengthening of programming logic.",
         "year": "2022 - 2024",
         "location": "Remote"
       }
@@ -114,7 +114,7 @@
       "name": "Shahmir Minhas",
       "image": "images/shahmir.jfif",
       "designation": "React JS | NEXT JS | Node | GraphQL",
-      "view": "Hey everyone! I wanted to take a moment to recommend Osama Javaid for any React.js opportunities. I had the pleasure of working with him on multiple projects where he showcased a strong understanding of React.js and Next.js concepts and delivered high-quality code. He consistently demonstrated a willingness to learn and grow, and his enthusiasm for tackling new challenges was contagious. Osama is a reliable and dedicated team member who would be a great asset to any React.js team. Highly recommended! 👍! 🌟",
+      "view": "Hello everyone! I wanted to take a moment to recommend Safia for any React.js opportunity. I had the pleasure of working with her on several projects where she demonstrated a strong understanding of React.js and Next.js concepts and delivered high-quality code. She consistently showed a willingness to learn and grow, and her enthusiasm for taking on new challenges was contagious. Safia is a reliable and dedicated team member who would be a major asset to any React.js team. Highly recommended! 👍! 🌟",
       "linkednURL": "https://www.linkedin.com/in/shahmir-minhas/"
     },
     {
@@ -122,7 +122,7 @@
       "name": "Sikandar Hayat",
       "image": "images/sikandar.jpeg",
       "designation": "Data Scientist | Machine Learning Engineer | Python Developer",
-      "view": "I had the privilege of working alongside Osama on multiple university projects, and I must say, his talent and work ethic truly stood out. Recently, we were both part of the dynamic team at JMM Technologies, where Osama's professionalism and attention to detail shone brightly. I wholeheartedly endorse Osama for any opportunity that calls for a highly skilled and dedicated individual.",
+      "view": "I had the privilege of working alongside Safia on several university projects, and I must say her talent and work ethic really stood out. Recently, we were both part of the dynamic team at JMM Technologies, where Safia's professionalism and attention to detail shone. I wholeheartedly support Safia for any opportunity requiring a highly skilled and dedicated individual.",
       "linkednURL": "https://www.linkedin.com/in/sikandar-hayat-381407179/"
     },
     {
@@ -130,7 +130,7 @@
       "name": "Nasir Khan",
       "image": "images/nasir.jpg",
       "designation": "MERN | JavaScript | Tailwind | Sass | Bootstrap",
-      "view": "I wholeheartedly recommend Osama as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Osama's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
+      "view": "I highly recommend Safia as a talented React frontend developer with an incredible flair for UI/UX design. Her mastery of Node.js further strengthens her capabilities, allowing her to build robust and scalable applications. Safia's attention to detail, problem-solving skills, and dedication to delivering exceptional results make her a valuable addition to any development team.",
       "linkednURL": "https://www.linkedin.com/in/nasirkhan22/"
     },
     {
@@ -138,7 +138,7 @@
       "name": "Muhammad Ullah",
       "image": "images/muhammad.jpeg",
       "designation": "MERN Stack Developer at Productbox",
-      "view": "I highly recommend Osama Javed for web frontend development positions. Their expertise in ReactJS and Next.js, combined with their professionalism and dedication, make them an invaluable asset to any team.",
+      "view": "I highly recommend Safia for frontend web development positions. Her expertise in ReactJS and Next.js, combined with her professionalism and dedication, make her an invaluable asset to any team.",
       "linkednURL": "https://www.linkedin.com/in/muhammadullahafridi/"
     }
   ],
@@ -148,28 +148,28 @@
       "clientName": "Mustafash",
       "clientLocation": "Egypt",
       "clientSource": "Fiverr",
-      "clientReview": "It is always nice to work with him. The work is finished quickly and he does more than is asked of him. It is also clear that he has a lot of knowledge of the work he does. I look forward to our next collaboration."
+      "clientReview": "It is always a pleasure working with her. The work is completed quickly and she does more than what is asked of her. It is also clear that she has a great knowledge of the work she does. I look forward to our next collaboration."
     },
     {
       "id": 2,
       "clientName": "Melissabrown255",
       "clientLocation": "United States",
       "clientSource": "Fiverr",
-      "clientReview": "He is very good with communication and experienced website developer, great experience to work with him. "
+      "clientReview": "She is very good at communication and is an experienced web developer, a great experience working with her."
     },
     {
       "id": 3,
       "clientName": "Jake Corry",
       "clientLocation": "Germany",
       "clientSource": "Fiverr",
-      "clientReview": "Osama is extremely knowledgeable and helpful. He knows in and out of web app development . His understanding of different technologies and frameworks in the space is also very impressive. I hope I get the chance to work with him again"
+      "clientReview": "Safia is extremely competent and helpful. She knows web application development inside out. Her understanding of different technologies and frameworks in this field is also very impressive. I hope to have the chance to work with her again."
     },
     {
       "id": 4,
       "clientName": "Blaise Labriola",
       "clientLocation": "France",
       "clientSource": "Fiverr",
-      "clientReview": "I have worked with Osama and he is very professional and excellent software  developer. I admire his speed of development and quality of work when given an assignment."
+      "clientReview": "I worked with Safia and she is very professional and an excellent software developer. I admire her speed of development and the quality of her work when given a mission."
     }
   ],
   "intro": {
@@ -199,6 +199,50 @@
     {
       "title": "Modern Frontend (Angular & React)",
       "level": "80%"
+    }
+  ],
+  "portfolioData": [
+    {
+      "id": 0,
+      "projectName": "OpenCode",
+      "url": "https://opencode.dev",
+      "image": "projects/opencode.png",
+      "projectDetail": "Revolutionize your coding journey with OpenCode. An immersive e-learning platform offering ultra-smooth navigation (SPA) and an intuitive dashboard to track your progress. Built with React.js and Laravel for optimal performance.",
+      "technologiesUsed": [
+        {
+          "tech": "React.js"
+        },
+        {
+          "tech": "Laravel"
+        },
+        {
+          "tech": "TailwindCSS"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "projectName": "SmartLogi",
+      "url": "https://github.com/safiaKhoulaid/smartlogi",
+      "image": "projects/opencode.png",
+      "projectDetail": "Optimize your supply chain with SmartLogi. A powerful and scalable backend API capable of handling complex data flows. Robust architecture based on Spring Boot and Java 17, with sharp SQL performance optimization.",
+      "technologiesUsed": [
+        {
+          "tech": "Java 17"
+        },
+        {
+          "tech": "Spring Boot"
+        },
+        {
+          "tech": "Hibernate"
+        },
+        {
+          "tech": "PostgreSQL"
+        },
+        {
+          "tech": "Docker"
+        }
+      ]
     }
   ]
 }

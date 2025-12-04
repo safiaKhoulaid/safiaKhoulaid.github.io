@@ -28,7 +28,7 @@ const Contact = () => {
                                 <span className='md:text-base'>{t('contact.city')}:</span>
                                 <span className='text-LightGray md:text-sm'>Safi</span>
                             </div>
-                          
+
                         </div>
                         <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
@@ -50,7 +50,7 @@ const Contact = () => {
                     <a className='hover:scale-125 ease-in-out duration-700' href="" target='_blank' rel="noreferrer"><HiMail /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/safiaKhoulaid" target='_blank' rel="noreferrer"><FaGithub /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/safia-khoulaid-92192b317/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
-                    {/* <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iosamajavaid" target='_blank' rel="noreferrer"><FaTwitter /></a> */}
+
                 </div>
 
 
